@@ -8,12 +8,9 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   min-height: 100vh;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header {
@@ -29,12 +26,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 #kanye-pic {
   margin-top: 10px;
-  max-width: 80%;
+  max-width: 90%;
   min-height: 350px;
   max-height: 80%;
   border-radius: 5px;
@@ -68,12 +66,12 @@ body {
 #btn {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #853082;
   color: #221e1f;
   border: none;
-  width: 250px;
-  height: 100px;
+  width: 200px;
+  height: 80px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -88,6 +86,7 @@ body {
   font-size: 1rem;
   display: flex;
   letter-spacing: 1px;
+  position: relative;
   justify-content: center;
   bottom: 0;
   height: 1.5rem;
@@ -109,6 +108,8 @@ body {
   }
 
   .quote-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 2.5rem;
     padding: 0 250px;
   }
